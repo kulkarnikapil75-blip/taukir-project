@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111111">
+    <title>Netflix | Watch anywhere</title>
+    <link rel="preconnect" href="https://image.tmdb.org">
+    <link rel="stylesheet" href="../css/antigravity.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="wordmark" href="#home" aria-label="Netflix home">NETFLIX</a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a class="nav-link nav-link--active" href="#home">Home</a>
+            <a class="nav-link" href="#series">TV Shows</a>
+            <a class="nav-link" href="#films">Movies</a>
+            <a class="nav-link" href="#popular">New &amp; Popular</a>
+            <a class="nav-link" href="#my-list">My List</a>
+        </nav>
+        <div class="header-tools">
+            <label class="search-box">
+                <span class="search-icon" aria-hidden="true"></span>
+                <input type="search" placeholder="Titles, people, genres" aria-label="Search titles">
+            </label>
+            <button class="profile-button" type="button" aria-label="Open profile menu">T</button>
+        </div>
+    </header>
+
+    <main id="home">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <p class="eyebrow"><span class="n-mark">N</span> SERIES</p>
+                <h1 id="hero-title">STRANGER<br>THINGS</h1>
+                <p class="hero-kicker">Every ending has a beginning.</p>
+                <p class="hero-description">When a young boy vanishes, a small town uncovers a mystery involving secret
+                    experiments, terrifying supernatural forces, and one strange little girl.</p>
+                <div class="hero-actions">
+                    <a class="action-button action-button--light" href="#trending"><span class="play-icon"
+                            aria-hidden="true"></span>Play</a>
+                    <a class="action-button action-button--muted" href="#series"><span class="info-icon"
+                            aria-hidden="true">i</span>More Info</a>
+                </div>
+            </div>
+            <div class="hero-meta" aria-label="Series information">
+                <span class="maturity-rating">TV-14</span>
+                <span>4 Seasons</span>
+                <span class="top-ten"><span>TOP</span> 10</span>
+            </div>
+            <a class="sound-toggle" href="#trending" aria-label="Sound off"><span aria-hidden="true">×</span></a>
+            <div class="hero-fade" aria-hidden="true"></div>
+        </section>
+
+        <div class="catalog">
+            <section class="title-row" id="trending" aria-labelledby="trending-title">
+                <div class="row-heading">
+                    <h2 id="trending-title">Trending Now</h2><a href="#films" class="explore-link">Explore all <span
+                            aria-hidden="true">›</span></a>
+                </div>
+                <div class="poster-track">
+                    <a class="poster-card" href="#films"><img
+                            src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                            alt="Oppenheimer poster"><span class="rank">1</span><span
+                            class="card-caption"><strong>Oppenheimer</strong><small>Mind-bending ·
+                                Award-winning</small></span></a>
+                    <a class="poster-card" href="#films"><img
+                            src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+                            alt="Dune: Part Two poster"><span class="rank">2</span><span
+                            class="card-caption"><strong>Dune: Part Two</strong><small>Epic · Sci-fi</small></span></a>
+                    <a class="poster-card" href="#films"><img
+                            src="https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+                            alt="Spider-Man: Across the Spider-Verse poster"><span class="rank">3</span><span
+                            class="card-caption"><strong>Across the Spider-Verse</strong><small>Offbeat ·
+                                Action</small></span></a>
+                    <a class="poster-card" href="#films"><img
+                            src="https://image.tmdb.org/t/p/w500/7CNCv9uhqdwK7Fv4bR4nmDysnd9.jpg"
+                            alt="The Batman poster"><span class="rank">4</span><span class="card-caption"><strong>The
+                                Batman</strong><small>Dark · Suspenseful</small></span></a>
+                    <a class="poster-card" href="#films"><img
+                            src="https://image.tmdb.org/t/p/w500/5a4JdoFwll5DRtKMe7JLuGQ9yJm.jpg"
+                            alt="The Queen's Gambit poster"><span class="rank">5</span><span
+                            class="card-caption"><strong>The Queen's Gambit</strong><small>Intimate ·
+                                Cerebral</small></span></a>
+                    <a class="poster-card" href="#films"><img
+                            src="https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg"
+                            alt="Money Heist poster"><span class="rank">6</span><span class="card-caption"><strong>Money
+                                Heist</strong><small>Suspenseful · Crime</small></span></a>
+                </div>
+            </section>
+
+            <section class="title-row" id="series" aria-labelledby="series-title">
+                <div class="row-heading">
+                    <h2 id="series-title">Binge-worthy Series</h2><a href="#popular" class="explore-link">Explore all
+                        <span aria-hidden="true">›</span></a>
+                </div>
+                <div class="landscape-track">
+                    <a class="landscape-card" href="#popular"><img
+                            src="https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg"
+                            alt="Stranger Things"><span class="landscape-label"><b>STRANGER THINGS</b><small>One last
+                                adventure.</small></span></a>
+                    <a class="landscape-card" href="#popular"><img
+                            src="https://image.tmdb.org/t/p/w780/5P8SmMzSNYikXpxil6BYzJ16611.jpg" alt="The Batman"><span
+                            class="landscape-label"><b>THE BATMAN</b><small>Unmask the truth.</small></span></a>
+                    <a class="landscape-card" href="#popular"><img
+                            src="https://image.tmdb.org/t/p/w780/8bcoRx0hIEnp5O1Q3sQRgxXwaQ0.jpg"
+                            alt="Dune: Part Two"><span class="landscape-label"><b>DUNE: PART TWO</b><small>Long live the
+                                fighters.</small></span></a>
+                    <a class="landscape-card" href="#popular"><img
+                            src="https://image.tmdb.org/t/p/w780/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg"
+                            alt="The Witcher"><span class="landscape-label"><b>THE WITCHER</b><small>Destiny is a
+                                beast.</small></span></a>
+                </div>
+            </section>
+
+            <section class="title-row" id="films" aria-labelledby="films-title">
+                <div class="row-heading">
+                    <h2 id="films-title">Only on Netflix</h2><a href="#my-list" class="explore-link">Explore all <span
+                            aria-hidden="true">›</span></a>
+                </div>
+                <div class="poster-track poster-track--compact">
+                    <a class="poster-card" href="#my-list"><img
+                            src="https://image.tmdb.org/t/p/w500/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg"
+                            alt="The Queen's Gambit poster"><span class="card-caption"><strong>The Queen's
+                                Gambit</strong><small>Limited Series</small></span></a>
+                    <a class="poster-card" href="#my-list"><img
+                            src="https://image.tmdb.org/t/p/w500/ApgrbWs8M9lyOpJYU5WXrpFbk1Z.jpg"
+                            alt="Dark poster"><span class="card-caption"><strong>Dark</strong><small>3
+                                Seasons</small></span></a>
+                    <a class="poster-card" href="#my-list"><img
+                            src="https://image.tmdb.org/t/p/w500/7WUHnWGx5OO145IRxPDUkQSh4C7.jpg"
+                            alt="Dune poster"><span
+                            class="card-caption"><strong>Dune</strong><small>Film</small></span></a>
+                    <a class="poster-card" href="#my-list"><img
+                            src="https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg"
+                            alt="Wednesday poster"><span class="card-caption"><strong>Wednesday</strong><small>2
+                                Seasons</small></span></a>
+                    <a class="poster-card" href="#my-list"><img
+                            src="https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg"
+                            alt="Breaking Bad poster"><span class="card-caption"><strong>Breaking Bad</strong><small>5
+                                Seasons</small></span></a>
+                    <a class="poster-card" href="#my-list"><img
+                            src="https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
+                            alt="Avengers: Infinity War poster"><span class="card-caption"><strong>Infinity
+                                War</strong><small>Film</small></span></a>
+                </div>
+            </section>
+
+            <section class="title-row" id="popular" aria-labelledby="popular-title">
+                <div class="row-heading">
+                    <h2 id="popular-title">Because You Watched Stranger Things</h2><a href="#my-list"
+                        class="explore-link">Explore all <span aria-hidden="true">›</span></a>
+                </div>
+                <div class="poster-track poster-track--compact">
+                    <a class="poster-card" href="#my-list"><img
+                            src="https://image.tmdb.org/t/p/w500/5a4JdoFwll5DRtKMe7JLuGQ9yJm.jpg"
+                            alt="The Queen's Gambit poster"><span class="card-caption"><strong>The Queen's
+                                Gambit</strong><small>Atmospheric · Drama</small></span></a>
+                    <a class="poster-card" href="#my-list"><img
+                            src="https://image.tmdb.org/t/p/w500/4EYPN5mVIhKLfxGruy7Dy41dTVn.jpg"
+                            alt="The Umbrella Academy poster"><span class="card-caption"><strong>The Umbrella
+                                Academy</strong><small>Offbeat · Supernatural</small></span></a>
+                    <a class="poster-card" href="#my-list"><img
+                            src="https://image.tmdb.org/t/p/w500/7WUHnWGx5OO145IRxPDUkQSh4C7.jpg"
+                            alt="Dune poster"><span class="card-caption"><strong>Dune</strong><small>Epic ·
+                                Otherworldly</small></span></a>
+                    <a class="poster-card" href="#my-list"><img
+                            src="https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg"
+                            alt="Wednesday poster"><span class="card-caption"><strong>Wednesday</strong><small>Witty ·
+                                Supernatural</small></span></a>
+                    <a class="poster-card" href="#my-list"><img
+                            src="https://image.tmdb.org/t/p/w500/ApgrbWs8M9lyOpJYU5WXrpFbk1Z.jpg"
+                            alt="Dark poster"><span class="card-caption"><strong>Dark</strong><small>Mind-bending ·
+                                Mysterious</small></span></a>
+                    <a class="poster-card" href="#my-list"><img
+                            src="https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg"
+                            alt="Money Heist poster"><span class="card-caption"><strong>Money
+                                Heist</strong><small>High-stakes · Thriller</small></span></a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer" id="my-list">
+        <div class="social-links" aria-label="Social media"><a href="#home" aria-label="Facebook">f</a><a href="#home"
+                aria-label="Instagram">◎</a><a href="#home" aria-label="YouTube">▶</a></div>
+        <div class="footer-links"><a href="#home">Audio Description</a><a href="#home">Help Centre</a><a
+                href="#home">Gift Cards</a><a href="#home">Media Centre</a><a href="#home">Investor Relations</a><a
+                href="#home">Jobs</a><a href="#home">Terms of Use</a><a href="#home">Privacy</a><a href="#home">Legal
+                Notices</a></div>
+        <button class="service-code" type="button">Service Code</button>
+        <small>© 1997–2026 Netflix, Inc.</small>
+    </footer>
+</body>
+
+</html>

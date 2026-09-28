@@ -1,0 +1,616 @@
+ .nav-bar {
+     height: 100px;
+     width: 100%;
+     background-color: aliceblue;
+     border-bottom: 1px rgba(0, 0, 0, 0.129) solid;
+     display: flex;
+     position: fixed;
+     z-index: 2;
+ }
+
+ #blink {
+     position: relative;
+     left: 20px;
+     bottom: 30px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 60px;
+     color: rgba(255, 221, 0, 0.744);
+     transition: transform 0.4s ease;
+ }
+
+ #blink:hover {
+     transform: scale(1.08);
+ }
+
+ #it {
+     color: green;
+ }
+
+ #p1 {
+     font-size: 30px;
+     font-weight: bolder;
+     position: relative;
+     left: 100px;
+     bottom: 20px;
+ }
+
+ #spam1 {
+     font-size: 12px;
+     font-weight: lighter;
+ }
+
+ #input {
+     position: relative;
+     top: 20px;
+     height: 50px;
+     left: 150px;
+     width: 50%;
+     border-radius: 15px;
+     border: rgba(0, 0, 0, 0.256) 1px solid;
+     transition: transform 0.8s ease;
+     font-size: 25px;
+
+ }
+
+ #input:hover {
+     transform: scale(1.08);
+     box-shadow: 5px 5px 10px rgb(0, 0, 0);
+
+ }
+
+ #but1 {
+    background-color: aliceblue;
+    font-size: 22px;
+     position: relative;
+     top: 15px;
+     left: 11%;
+     width: 120px;
+     height: 50px;
+     border-radius: 10px;
+     border:none;
+     transition: transform 0.4s ease;
+
+ }
+
+ #but1:hover {
+     transform: scale(1.08);
+     color: rgb(0, 238, 255);
+     font-size: 30px;
+ }
+
+ #but2 {
+     position: relative;
+     top: 15px;
+     left: 13%;
+     width: 100px;
+     height: 60px;
+     border-radius: 10px;
+     border: rgba(0, 0, 0, 0.425) 1px solid;
+     transition: transform 0.4s ease;
+
+ }
+
+ #but2:hover {
+     background-color: rgba(0, 0, 0, 0.575);
+     color: aliceblue;
+     transform: scale(15deg);
+     font-size: 20px;
+ }
+
+ .div2 {
+     background-color: aqua;
+     height: 330px;
+     width: 1700px;
+     position: relative;
+     top: 110px;
+     left: 100px;
+     background-image: url(/img/3r3.png);
+     background-size: cover;
+     transition: transform 0.5s ease;
+ }
+
+ .div2:hover {
+     transform: translatex(25px);
+ }
+
+ .div3 {
+     height: 300px;
+     width: 1400px;
+     display: flex;
+     position: relative;
+     left: 113px;
+     top: 200px;
+
+ }
+
+ #div3-1 {
+     position: relative;
+     top: -40px;
+     height: 250px;
+     width: 400px;
+     background-image: url(/img/kv.png);
+     background-size: cover;
+     border-radius: 30px;
+     transition: transform 0.4s ease;
+ }
+
+ #div3-1:hover {
+     transform: scale(1.08);
+ }
+
+ #div3-2 {
+     position: relative;
+     top: -40px;
+     left: 3%;
+     height: 250px;
+     width: 400px;
+     background-image: url(/img/img.png);
+     background-size: cover;
+     border-radius: 30px;
+     transition: transform 0.4s ease;
+ }
+
+ #div3-2:hover {
+     transform: scale(1.08);
+ }
+
+ #div3-3 {
+     position: relative;
+     top: -40px;
+     left: 6%;
+     height: 250px;
+     width: 400px;
+     background-image: url(/img/kao.png);
+     background-size: cover;
+     border-radius: 30px;
+     transition: transform 0.4s ease;
+
+ }
+
+ #div3-3:hover {
+     transform: scale(1.08);
+ }
+
+ .div4 {
+     height: 100px;
+     width: 1700px;
+     display: flex;
+     justify-content: space-evenly;
+     position: relative;
+     left: 100px;
+     top: 180px;
+
+ }
+
+ #div4-1 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/1.png);
+     background-size: cover;
+     border-radius: 30px;
+     transition: transform 0.4s ease;
+ }
+
+ #div4-1:hover {
+     transform: scale(1.10);
+
+ }
+
+ #div4-2 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/2.png);
+     background-size: cover;
+     border-radius: 30px;
+     transition: transform 0.4s ease;
+ }
+
+ #div4-2:hover {
+     transform: scale(1.10);
+
+ }
+
+ #div4-3 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/3.png);
+     background-size: cover;
+     border-radius: 30px;
+     transition: transform 0.4s ease;
+ }
+
+ #div4-3:hover {
+     transform: scale(1.10);
+ }
+
+
+
+ #div4-4 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/4.png);
+     background-size: cover;
+     border-radius: 30px;
+     transition: transform 0.4s ease;
+ }
+
+ #div4-4:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ #div4-5 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/5.png);
+     background-size: cover;
+     border-radius: 30px;
+     transition: transform 0.4s ease;
+ }
+
+ #div4-5:hover {
+
+     transform: scale(1.10);
+
+ }
+
+
+ #div4-6 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/6.png);
+     background-size: cover;
+     border-radius: 30px;
+     transition: transform 0.4s ease;
+ }
+
+ #div4-6:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ #div4-7 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/7.png);
+     background-size: cover;
+     border-radius: 30px;
+     transition: transform 0.4s ease;
+ }
+
+ #div4-7:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ #div4-8 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/8.png);
+     background-size: cover;
+     border-radius: 30px;
+     transition: transform 0.4s ease;
+ }
+
+ #div4-8:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ #div4-9 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/9.png);
+     background-size: cover;
+     border-radius: 30px;
+     transition: transform 0.4s ease;
+ }
+
+ #div4-9:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ #div4-10 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/10.png);
+     background-size: cover;
+     border-radius: 30px;
+     transition: transform 0.4s ease;
+ }
+
+ #div4-10:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ .div5 {
+     height: 200px;
+     width: 1700px;
+     display: flex;
+     justify-content: space-evenly;
+     position: relative;
+     left: 100px;
+     top: 280px;
+     transition: transform 0.4s ease;
+
+ }
+
+ #div5-1 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/11.png);
+     background-size: cover;
+     border-radius: 30px;
+      transition: transform 0.4s ease;
+
+
+ }
+  #div5-1:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ #div5-2 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/12.png);
+     background-size: cover;
+     border-radius: 30px;
+      transition: transform 0.4s ease;
+
+ }
+   #div5-2:hover {
+
+     transform: scale(1.10);
+
+ }
+ #div5-3 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/13.png);
+     background-size: cover;
+     border-radius: 30px;
+      transition: transform 0.4s ease;
+
+ }
+   #div5-3:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ #div5-4 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/14.png);
+     background-size: cover;
+     border-radius: 30px;
+      transition: transform 0.4s ease;
+
+ }
+   #div5-4:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ #div5-5 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/15.png);
+     background-size: cover;
+     border-radius: 30px;
+      transition: transform 0.4s ease;
+
+ }
+   #div5-5:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ #div5-6 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/16.png);
+     background-size: cover;
+     border-radius: 30px;
+      transition: transform 0.4s ease;
+
+ }
+   #div5-6:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ #div5-7 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/17.png);
+     background-size: cover;
+     border-radius: 30px;
+      transition: transform 0.4s ease;
+
+ }
+   #div5-7:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ #div5-8 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/18.png);
+     background-size: cover;
+     border-radius: 30px;
+      transition: transform 0.4s ease;
+
+ }
+   #div5-8:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ #div5-9 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/19.png);
+     background-size: cover;
+     border-radius: 30px;
+      transition: transform 0.4s ease;
+
+ }
+   #div5-9:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ #div5-10 {
+     position: relative;
+     top: -40px;
+     left: 0;
+     height: 150px;
+     width: 150px;
+     background-image: url(/img/20.png);
+     background-size: cover;
+     border-radius: 30px;
+      transition: transform 0.4s ease;
+
+ }
+   #div5-10:hover {
+
+     transform: scale(1.10);
+
+ }
+
+ .div6 {
+     display: flex;
+     position: relative;
+     top: 250px;
+ }
+
+ #div6-1 {
+     position: relative;
+     left: 140px;
+     font-size: 23px;
+ }
+
+ #div6-2 {
+     position: relative;
+     left: 740px;
+     top: 8px;
+     font-size: 23px;
+ }
+
+ .div7 {
+     display: flex;
+     justify-content: space-evenly;
+     position: relative;
+     top: 250px;
+     left: 10px;
+ }
+
+ .div7 p {
+     color: rgba(0, 0, 0, 0.63);
+     font-size: 20px;
+ }
+
+ .container {
+     height: 40px;
+     display: flex;
+     position: relative;
+     top: 350px;
+     justify-content: center;
+     gap: 30px;
+
+
+ }
+ .app{
+   position: relative;
+   top:16px;
+ }
+
+ .foot{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 400px;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    color: rgba(0, 0, 0, 0.54);
+ }
+
+
+
+
+  

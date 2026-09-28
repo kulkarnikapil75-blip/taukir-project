@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(223, 206, 164, 0.586);
+}
+
+#nav{
+    margin-top: 300px;
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    border-radius: 100px;
+    color: aliceblue;
+    padding: 12px;
+}
+
+ul{
+    font-size: 30px;
+
+}
+
+#gmail{
+
+    background-color: rgb(254, 254, 254);
+    color: black;
+    padding: 3px;
+    border-radius: 30px;
+}
